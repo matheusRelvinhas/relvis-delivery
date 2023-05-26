@@ -6,7 +6,7 @@ function App() {
     <>
       <Banner/>
       <div>
-        <h1>MEIO</h1>
+        <h1>MAIN</h1>
       </div>
       <Footer/>
     </>
