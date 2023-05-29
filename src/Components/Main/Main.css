@@ -1,7 +1,11 @@
 .main {
     display: flex;
     justify-content: space-around;
-    padding-top: 16px;
     flex-wrap: wrap;
     background-color: rgba(240, 240, 240);
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    margin-top: auto;
 }
