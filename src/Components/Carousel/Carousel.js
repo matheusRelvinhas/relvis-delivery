@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Carousel.css';
 
-const Carousel = ({ images }) => {
+const Carousel = ({ images, url }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const goToNextSlide = () => {
@@ -17,7 +17,9 @@ const Carousel = ({ images }) => {
       <button className="carousel-button prev" onClick={goToPreviousSlide}>
         &#8249;
       </button>
-      <img className="carousel-image" src={images[currentIndex]} alt="Slide" />
+      <a href={url}>
+        <img className="carousel-image" src={images[currentIndex]} alt="Slide" />
+      </a>
       <button className="carousel-button next" onClick={goToNextSlide}>
         &#8250;
       </button>
