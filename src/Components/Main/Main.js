@@ -31,7 +31,7 @@ const Main = () => {
   }
   return (
     <>
-      <div className='main'>
+      <main className='main'>
         <Card
           titulo= {whats.title}
           descricao= {whats.text}
@@ -56,7 +56,7 @@ const Main = () => {
           url= {porcao.url}
           imagem= {porcao.imagens}
         />
-      </div>
+      </main>
     </>
   );
 }
