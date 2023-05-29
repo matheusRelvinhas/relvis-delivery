@@ -1,14 +1,14 @@
 .footer {
   background: #ffe53e;
   color: #000;
-  padding: 2px;
   display: flex;
-  justify-content:space-around;
+  justify-content:space-between;
   align-items: center;
   bottom: 0;
-  position: fixed;
   width: 100%;
   text-align: center;
+  padding: 20px;
+  margin-top: auto;
 }
 
 .footer ul li {
@@ -17,14 +17,14 @@
 }
 
 .logo {
-  max-width: 40%;
+  max-width: 100px;
+  max-height: 100px;
+  max-width: 100%;
 }
 
 .text-contato{
   margin-right: 32px;
 }
-
-
 
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
