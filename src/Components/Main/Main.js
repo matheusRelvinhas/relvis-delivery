@@ -6,14 +6,14 @@ const Main = () => {
     title: 'Peça pelo Whats',
     text: 'Mande uma mensagem e vamos te atender',
     url: 'https://wa.me/5531971451910',
-    imagens: ['/img/whats-card.png']
+    imagens: ['/img/whats01-card.png','/img/whats02-card.png']
   }
 
   const ifood = {
     title: 'Peça pelo Ifood',
     text: 'Consulte nossas promoções no ifood',
     url: 'https://www.ifood.com.br/delivery/belo-horizonte-mg/relvis-delivery-padre-eustaquio/',
-    imagens: ['/img/ifood-card.png']
+    imagens: ['/img/ifood01-card.png', '/img/ifood02-card.png', '/img/ifood03-card.png']
   }
 
   const bebidas = {
