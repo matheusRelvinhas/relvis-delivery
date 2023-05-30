@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/relvis-delivery/static/css/main.c727d734.css",
-    "main.js": "/relvis-delivery/static/js/main.058099b6.js",
+    "main.js": "/relvis-delivery/static/js/main.ed16556f.js",
     "index.html": "/relvis-delivery/index.html",
     "main.c727d734.css.map": "/relvis-delivery/static/css/main.c727d734.css.map",
-    "main.058099b6.js.map": "/relvis-delivery/static/js/main.058099b6.js.map"
+    "main.ed16556f.js.map": "/relvis-delivery/static/js/main.ed16556f.js.map"
   },
   "entrypoints": [
     "static/css/main.c727d734.css",
-    "static/js/main.058099b6.js"
+    "static/js/main.ed16556f.js"
   ]
 }
