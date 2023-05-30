@@ -32,7 +32,7 @@ const Footer = () => {
         </section>
       </div>
       <div className='footer-text'>
-        <h3>HORARIO DE FUNCIONMENTO: TERÇA A DOMINGO / 11:00 ÀS 23:00</h3>
+        <h3>HORÁRIO DE FUNCIONMENTO: TERÇA À DOMINGO / 11:00 ÀS 23:00</h3>
         <h3>Rua Vereador Geraldo Pereira 232a - Padre Eustáquio - BH - MG</h3>
       </div>
     </footer>
