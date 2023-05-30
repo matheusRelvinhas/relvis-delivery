@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/relvis-delivery/static/css/main.c727d734.css",
+    "main.js": "/relvis-delivery/static/js/main.2c8b1b56.js",
+    "index.html": "/relvis-delivery/index.html",
+    "main.c727d734.css.map": "/relvis-delivery/static/css/main.c727d734.css.map",
+    "main.2c8b1b56.js.map": "/relvis-delivery/static/js/main.2c8b1b56.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c727d734.css",
+    "static/js/main.2c8b1b56.js"
+  ]
+}
