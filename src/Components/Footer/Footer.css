@@ -2,8 +2,7 @@
   background: #ffe53e;
   color: #000;
   display: flex;
-  justify-content:space-between;
-  align-items: center;
+  flex-direction: column;
   bottom: 0;
   width: 100%;
   text-align: center;
@@ -11,6 +10,19 @@
   margin: 0;
   box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.3);
   margin-top: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  font-size: x-large;
 }
 
 .footer ul li {
@@ -27,4 +39,10 @@
 .text-contato{
   margin-right: 32px;
   font-size: xx-large;
+}
+
+h3 {
+  margin: 0;
+  padding-bottom: 6px;
+  padding-right: 12px;
 }
