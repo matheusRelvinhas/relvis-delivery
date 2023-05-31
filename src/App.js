@@ -12,7 +12,7 @@ function App() {
     address: 'Rua Vereador Geraldo Pereira 232a - Padre Eustáquio - BH - MG'
   }
 
-  const dataIcon = [
+  const dataIcon = [ //images 32x32
     {
       icon: 'https://i.postimg.cc/sDBSRQ4j/whatsapp.webp',
       url: 'https://wa.me/5531971451910',
@@ -85,9 +85,6 @@ function App() {
         openHour={dataInfo.openHour}
         address={dataInfo.address}
         dataIcon={dataIcon}
-        whats={dataIcon.whats}
-        ifood={dataIcon.ifood}
-        instagram={dataIcon.instagram}
       />
     </>
   );
