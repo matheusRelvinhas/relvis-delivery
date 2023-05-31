@@ -1,8 +1,8 @@
 import './Banner.css';
 
-const Banner = ({bannerImage}) => {
+const Banner = ({bannerImage, background}) => {
   return (
-    <header className="banner">
+    <header className="banner" style={{background: background}}>
       <img src={bannerImage} alt='banner'/>
     </header>
   );

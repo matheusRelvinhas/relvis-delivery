@@ -1,8 +1,8 @@
 import './Footer.css';
 
-const Footer = ({logoImage, contact, openHour, address, dataIcon}) => {
+const Footer = ({logoImage, contact, openHour, address, dataIcon, background}) => {
   return (
-    <footer className='footer'>
+    <footer className='footer' style={{background: background}}>
       <div className='footer-container'>    
         <section>
           <ul>

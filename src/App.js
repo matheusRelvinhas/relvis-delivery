@@ -30,6 +30,10 @@ function App() {
     }
   ]
 
+  const dataColor = {
+    primaryColor: '#ffe53e'
+  }
+
   const dataCard = [ //images 512x512
     {
       title: 'Peça pelo Whats',
@@ -77,7 +81,10 @@ function App() {
   
   return (
     <>
-      <Banner bannerImage={dataInfo.bannerImage}/>
+      <Banner 
+        bannerImage={dataInfo.bannerImage}
+        background={dataColor.primaryColor}
+      />
       <Main dataCard={dataCard}/>
       <Footer 
         logoImage={dataInfo.logoImage} 
@@ -85,6 +92,7 @@ function App() {
         openHour={dataInfo.openHour}
         address={dataInfo.address}
         dataIcon={dataIcon}
+        background={dataColor.primaryColor}
       />
     </>
   );
