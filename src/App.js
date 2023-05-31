@@ -4,7 +4,7 @@ import Main from "./Components/Main/Main";
 
 function App() {
   
-  const dataInfo = {
+  const dataInfo = { // informações do delivery
     logoImage: 'https://i.postimg.cc/Dz316vs2/logo-relvis-delivery.webp',  // image 500x500
     bannerImage: 'https://i.postimg.cc/Jhj5CDmD/banner-relvis-delivery.webp', // image 1600x400
     contact: '31 9 7145-1910',
@@ -12,8 +12,8 @@ function App() {
     address: 'Rua Vereador Geraldo Pereira 232a - Padre Eustáquio - BH - MG'
   }
 
-  const dataIcon = [ //images 32x32
-    {
+  const dataIcon = [ // incones do footer. Ifood, whats e intagram
+    { //images 32x32
       icon: 'https://i.postimg.cc/sDBSRQ4j/whatsapp.webp',
       url: 'https://wa.me/5531971451910',
       alt: 'whats'
@@ -30,12 +30,12 @@ function App() {
     }
   ]
 
-  const dataColor = {
+  const dataColor = { // cor principal de fundo, header(banner) e footer 
     primaryColor: '#ffe53e'
   }
 
-  const dataCard = [ //images 512x512
-    {
+  const dataCard = [ // informações do card(main)
+    { // images 512x512
       title: 'Peça pelo Whats',
       text: 'Mande uma mensagem e vamos te atender',
       url: 'https://wa.me/5531971451910',
