@@ -1,9 +1,9 @@
 import './Banner.css';
 
-const Banner = () => {
+const Banner = ({bannerImage}) => {
   return (
     <header className="banner">
-      <img src='https://i.postimg.cc/Jhj5CDmD/banner-relvis-delivery.webp' alt='logo'/>
+      <img src={bannerImage} alt='banner'/>
     </header>
   );
 }
